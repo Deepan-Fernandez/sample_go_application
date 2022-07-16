@@ -7,7 +7,7 @@ import (
 )
 
 func sampleApp(w http.ResponseWriter, r *http.Request){
-    fmt.Fprintf(w, "It's a sample App!")
+    fmt.Fprintf(w, "It's a sample App!\n")
     fmt.Println("Endpoint Hit: sampleApp")
 }
 
